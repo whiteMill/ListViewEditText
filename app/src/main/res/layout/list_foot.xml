@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/summary_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/log_write_shape"
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:focusable="true"
+        android:visibility="visible"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/log_summary"
+            android:gravity="top"
+            android:textColorHint="#d0d0d0"
+            android:hint="今日总结：你看到了什么？你发现了什么？你需要提升的是什么？下一步是什么？"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
